@@ -12,8 +12,8 @@ const transporter = nodemailer.createTransport({
     sendMail: true,
     host: 'cdgemail.cdg.co.th',
     auth: {
-        user: '005367@cdg.co.th',
-        pass: 'armsozk38'
+        user: 'example@mail.co.th',
+        pass: 'password'
     },
     pool: true
 });
