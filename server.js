@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({ extended: true, type: 'application/x-www-form-ur
 
 const transporter = nodemailer.createTransport({
     sendMail: true,
-    host: 'cdgemail.cdg.co.th',
+    host: 'your.smtp.host',
     auth: {
         user: 'example@mail.co.th',
         pass: 'password'
