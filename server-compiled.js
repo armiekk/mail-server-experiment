@@ -25,10 +25,10 @@ app.use(_bodyParser2.default.urlencoded({ extended: true, type: 'application/x-w
 
 var transporter = _nodemailer2.default.createTransport({
     sendMail: true,
-    host: 'cdgemail.cdg.co.th',
+    host: 'your.smtp.host',
     auth: {
-        user: '005367@cdg.co.th',
-        pass: 'armsozk38'
+        user: 'example@mail.com',
+        pass: 'password'
     },
     pool: true
 });
